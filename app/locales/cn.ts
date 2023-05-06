@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左上角购买Key后再点击左下角[设置](/#/settings)按钮输入API Key。",
+     <p>现在是未授权状态，请点击<a href="https://ka.741sms.com/buy/15">购买Key</a>后再点击左下角<a href="/#/settings">设置</a>按钮输入API Key。</p>
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
