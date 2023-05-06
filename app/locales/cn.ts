@@ -4,9 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
   Unauthorized: 
-  html_str = '<div>现在是未授权状态，请点击 <a href="https://ka.741sms.com/buy/15">购买Key</a> 后再点击 <a href="/#/settings">设置</a> 按钮输入 API Key。</div>'
-print(html_str)
-
+ "现在是未授权状态，请点击"购买Key", url="https://ka.741sms.com/buy/15"后再点击左下角[设置](/#/settings)按钮输入API Key。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
