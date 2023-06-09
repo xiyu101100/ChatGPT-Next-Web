@@ -99,7 +99,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]}>云码ChatGPT</div>
         <div className={styles["sidebar-sub-title"]}>QQ：78619658</div>
         <div className={styles["sidebar-sub-title"]}>微信：xiyu101100</div>
-        <a href="https://ka.741sms.com/buy/15" target="_blank" className={styles["sidebar-sub-title"]} style={{textDecoration:'none'}}>购买ChatGPT账号含5美金带API Key</a>         
+        <div className={styles["sidebar-sub-title"]}>微信：xiyu101100</div><a href="https://ka.741sms.com/buy/15" target="_blank" className={styles["sidebar-sub-title"]} style={{textDecoration:'none'}}>购买ChatGPT账号含5美金带API Key</a>         
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
